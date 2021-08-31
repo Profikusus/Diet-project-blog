@@ -1,0 +1,17 @@
+.image-slide-one {
+    background-image: url(./main-slide-one.jpg);
+    height: 800px;
+}
+
+.text-content-one{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content-one h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
