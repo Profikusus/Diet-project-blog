@@ -1,0 +1,14 @@
+.image-slide-two {
+    background-image: url(/src/components/Content/main-slide-two.jpg);
+}
+.text-content-two {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-content-two h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}

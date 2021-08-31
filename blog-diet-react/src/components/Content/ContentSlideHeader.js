@@ -1,6 +1,6 @@
 import React from 'react'
-import '../SlideBox/SlideBox.css'
-const SliderBox = () => {
+import './ContentSlideHeader.css'
+const ContentSlideHeader = () => {
     return (
         <>
             <section className="image-slide-one">
@@ -19,4 +19,4 @@ const SliderBox = () => {
     )
 }
 
-export default SliderBox
+export default ContentSlideHeader

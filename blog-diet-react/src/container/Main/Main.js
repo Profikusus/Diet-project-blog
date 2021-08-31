@@ -1,10 +1,14 @@
 import React from 'react'
-import SliderBox from '../../components/SlideBox/SlideBox'
+import ContentSlideFooter from '../../components/Content/ContentSlideFooter'
+import ContentSlideHeader from '../../components/Content/ContentSlideHeader'
+import ContentSlideMain from '../../components/Content/ContentSlideMain'
 
 const Main = () => {
     return (
         <>
-            <SliderBox />
+            <ContentSlideHeader />
+            <ContentSlideMain />
+            <ContentSlideFooter />
         </>
     )
 }

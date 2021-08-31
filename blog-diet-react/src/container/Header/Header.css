@@ -1,3 +1,9 @@
 .row-menu {
     height: 70px;
 }
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+
+}
