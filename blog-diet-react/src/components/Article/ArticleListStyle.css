@@ -64,3 +64,54 @@
 .flex-box{
     display: flex;
 }
+.diet-box {
+    height: 560px;
+    margin-top: -25px;
+    border: 1px solid #e2e2e2;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 5px 5px rgb(0 0 0 / 10%);
+}
+
+.diet-box img {
+    height: 286px;
+    width: 100%;
+}
+
+.head-diet-box {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.head-diet-box a {
+    text-decoration: none;
+    color: black;
+}
+
+.title-diet-box {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.footer-diet-box {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-diet-box a {
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #7fbd5d;
+    background-color: #7fbd5d;
+}
+
+.diet-box-margin {
+    margin-top: 30px;
+}

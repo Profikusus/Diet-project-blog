@@ -4,7 +4,7 @@ import './ContentSlideMain.css'
 const ContentSlideMain = () => {
     return (
         <>
-            <section className="image-slide-two">
+            <section className="image-slide-two parallax">
                 <div className="container">
                     <div className="row">
                         <div className="text-content-two">

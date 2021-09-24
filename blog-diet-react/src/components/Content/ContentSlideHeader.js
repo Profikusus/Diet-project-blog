@@ -3,7 +3,7 @@ import './ContentSlideHeader.css'
 const ContentSlideHeader = () => {
     return (
         <>
-            <section className="image-slide-one">
+            <section className="image-slide-one parallax">
                 <div className="container">
                     <div className="row">
                         <div className="text-content-one">

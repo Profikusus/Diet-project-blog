@@ -13,6 +13,7 @@ import ContentSlideHeader from '../../components/Content/ContentSlideHeader'
 import ContentSlideMain from '../../components/Content/ContentSlideMain'
 import HeadBoxText from '../../components/Content/TextContentBox/HeadBoxText'
 import MainBoxText from '../../components/Content/TextContentBox/MainBoxText'
+import ArticleFooterList from '../../components/Article/ArticleFooterList'
 
 const Main = () => {
     return (
@@ -24,6 +25,7 @@ const Main = () => {
                     <ArticleList />
                     <MainBoxText />
                     <ContentSlideMain />
+                    <ArticleFooterList />
                     <ContentSlideFooter />
                 </Route>
 

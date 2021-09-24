@@ -41,7 +41,7 @@ const ArticleListItem = ({ article }) => {
                                 {count}
                             </div>
                             <div className="post-links">
-                                <Link>Read more</Link>
+                                <Link to={todo}>Read more</Link>
                             </div>
                         </div>
                     </div>
