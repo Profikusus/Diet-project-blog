@@ -1,0 +1,40 @@
+.heading-text h1 {
+    color: white;
+    border-bottom: 2px solid #7fbd5d;
+    font-size: 32px;
+    height: 54px;
+    text-align: center;
+    line-height: 64px;
+}
+
+.heading-text {
+    height: 54px;
+    margin-top: -70px;
+}
+.view-all-btn {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.view-all-btn a {
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 30px;
+    border-bottom: 2px solid #000;
+    text-align: center;
+    color: white;
+}
+
+.view-all-btn a::after {
+    content: "\2192";
+    color: white;
+    line-height: 30px;
+    font-size: 24px;
+}
+.color-block {
+    background-color: #7fbd5d;
+    height: 122px;
+}
