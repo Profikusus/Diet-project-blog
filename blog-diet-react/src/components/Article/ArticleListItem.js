@@ -16,10 +16,10 @@ const ArticleListItem = ({ article }) => {
 
     return (
         <>
-            <div className="col-xs-12 col-md-4">
+            <div className="col-xs-12 col-md-4" id={id}>
                 <div className="article-content">
                     <Link>
-                        <img src={image} />
+                        <img src={image} alt="" />
                     </Link>
                     <Button>
                         <Link to={todo}>{categories}</Link>

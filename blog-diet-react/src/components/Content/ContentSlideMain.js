@@ -7,7 +7,7 @@ const ContentSlideMain = () => {
             <section className="image-slide-two parallax">
                 <div className="container">
                     <div className="row">
-                        <div className="text-content-two">
+                        <div className="text-content">
                             <h1>
                                 Red meat is a good source of protein, iron,
                                 vitamin B, riboflavin, thiamin and niacin.

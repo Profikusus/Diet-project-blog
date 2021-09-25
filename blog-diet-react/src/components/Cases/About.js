@@ -1,11 +1,15 @@
 import React from 'react'
-import ContentSlideFooter from '../Content/ContentSlideFooter'
 import '../../components/Cases/About.css'
-
 const About = () => {
     return (
         <>
-            <ContentSlideFooter />
+            <div>
+                <img
+                    className="parallax"
+                    src="./images/home_diet_about1.jpg"
+                    alt=""
+                />
+            </div>
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-md-12">

@@ -2,10 +2,39 @@
     background-image: url(./main-slide-tree.jpg);
     height: 950px;
 }
+.text-content{
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.text-content h3{
+    font-size: 24px;
+    color: #7fbd5d;
+    padding-bottom: 50px;
+}
+.text-content h1 {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+}
 .parallax {
     min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.btn{
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #7fbd5d;
+    background-color: #7fbd5d;
+   margin-top: 100px;
+}
+.btn:hover{
+    background-color: #76da40;
 }

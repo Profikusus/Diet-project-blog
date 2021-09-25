@@ -3,17 +3,17 @@ import React from 'react'
 import './ArticleListStyle.css'
 import { Link } from 'react-router-dom'
 
-const ArticleFooter = ({ article }) => {
-    const { id, image, categories, description, text, todo } = article
+const MainArticleListItem = ({ articleMain }) => {
+    const { id, image, description, text, todo } = articleMain
     return (
         <>
-            <div className="col-xs-12 col-md-6">
+            <div className="col-xs-12 col-md-6" id={id}>
                 <div className="diet-box">
-                    <img src={image} />
+                    <img src={image} alt="" />
                     <div className="desc-diet-box">
                         <div className="head-diet-box">
                             <h1>
-                                <Link to="/about">{description}</Link>
+                                <Link to={todo}>{description}</Link>
                             </h1>
                         </div>
                         <div className="title-diet-box">
@@ -21,7 +21,7 @@ const ArticleFooter = ({ article }) => {
                         </div>
                         <div className="footer-diet-box">
                             <Button>
-                                <Link to="/about">Read more</Link>
+                                <Link to={todo}>Read more</Link>
                             </Button>
                         </div>
                     </div>
@@ -31,4 +31,4 @@ const ArticleFooter = ({ article }) => {
     )
 }
 
-export default ArticleFooter
+export default MainArticleListItem

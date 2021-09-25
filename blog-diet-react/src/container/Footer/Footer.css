@@ -1,0 +1,32 @@
+.chenge-text-footer{
+    text-decoration: none;
+    font-size: 15px;
+    color: #848484;
+    line-height: 25px;
+}
+
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.footer-box h1{
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.footer-box p{
+    padding-bottom: 20px;
+    color: #848484;
+}
+.chenge-text-footer:hover{
+    color: #5f9d3d;
+}
+.footer-box a{
+    text-decoration: none;
+    color: #848484;
+    padding-bottom: 7px;
+
+}
+.footer-box a:hover{
+    color: #7fbd5d;
+}

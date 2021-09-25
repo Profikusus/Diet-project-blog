@@ -1,4 +1,3 @@
-import { Home } from '@material-ui/icons'
 import React from 'react'
 import { Route, Switch } from 'react-router'
 import ArticleList from '../../components/Article/ArticleList'
@@ -13,19 +12,19 @@ import ContentSlideHeader from '../../components/Content/ContentSlideHeader'
 import ContentSlideMain from '../../components/Content/ContentSlideMain'
 import HeadBoxText from '../../components/Content/TextContentBox/HeadBoxText'
 import MainBoxText from '../../components/Content/TextContentBox/MainBoxText'
-import ArticleFooterList from '../../components/Article/ArticleFooterList'
+import MainArticleList from '../../components/Article/MainArticleList'
 
 const Main = () => {
     return (
         <>
             <Switch>
-                <Route path="/" exact component={Home}>
+                <Route path="/" exact>
                     <ContentSlideHeader />
                     <HeadBoxText />
                     <ArticleList />
                     <MainBoxText />
                     <ContentSlideMain />
-                    <ArticleFooterList />
+                    <MainArticleList />
                     <ContentSlideFooter />
                 </Route>
 

@@ -7,7 +7,7 @@ const Logo = () => {
             <div className="col-xs-12 col-md-4">
                 <div className="logo">
                     <Link to="/">
-                        <img src="./images/logo.png" />
+                        <img src="./images/logo.png" alt="" />
                     </Link>
                 </div>
             </div>
