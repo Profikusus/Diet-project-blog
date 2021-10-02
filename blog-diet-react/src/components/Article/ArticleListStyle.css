@@ -26,6 +26,9 @@
     text-decoration: none;
     color: black;
 }
+.post-head h1 {
+    text-align: center;
+}
 
 .post-title {
     color: #626262;
@@ -114,4 +117,10 @@
 
 .diet-box-margin {
     margin-top: 30px;
+}
+.article-content img, .post-head{
+    transition: 1s;
+}
+.article-content img:hover, .post-head:hover{
+    transform: scale(1.08);
 }
