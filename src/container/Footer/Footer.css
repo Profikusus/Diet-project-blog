@@ -25,8 +25,13 @@
     text-decoration: none;
     color: #848484;
     padding-bottom: 7px;
-
 }
 .footer-box a:hover{
     color: #7fbd5d;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
 }

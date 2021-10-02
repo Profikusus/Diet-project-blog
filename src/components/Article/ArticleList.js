@@ -8,13 +8,21 @@ const ArticleList = () => {
             <div className="container">
                 <div className="row row-article">
                     {ArticleArray.map(
-                        ({ id, image, description, text, todo }) => (
+                        ({
+                            id,
+                            image,
+                            description,
+                            text,
+                            todo,
+                            categories,
+                        }) => (
                             <ArticleListItem
                                 key={id}
                                 image={image}
                                 description={description}
                                 text={text}
                                 todo={todo}
+                                categories={categories}
                             />
                         )
                     )}

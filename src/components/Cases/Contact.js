@@ -1,9 +1,15 @@
 import React from 'react'
+import './Contact.css'
+import GridProject from './GridProject'
 
 const Contact = () => {
     return (
         <>
-            <h1>Contact</h1>
+            <section className="contact-head-image">
+                <GridProject>
+                    <div className="col-md-12"></div>
+                </GridProject>
+            </section>
         </>
     )
 }

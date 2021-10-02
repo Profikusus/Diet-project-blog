@@ -1,5 +1,7 @@
 import React from 'react'
 import './Footer.css'
+import { Facebook, Google, Instagram, Twitter } from 'react-bootstrap-icons'
+import { Link } from 'react-router-dom'
 const Footer = () => {
     return (
         <>
@@ -61,6 +63,35 @@ const Footer = () => {
                                     profikusus@gmail.com
                                 </a>
                             </p>
+                            <div className="social">
+                                <div className="col-md-3 col-xs-12">
+                                    <a href="https://twitter.com/?lang=ru">
+                                        <Twitter />
+                                    </a>
+                                </div>
+                                <div className="col-md-3 col-xs-12">
+                                    <a href="https://www.instagram.com">
+                                        <Instagram />
+                                    </a>
+                                </div>
+                                <div className="col-md-3 col-xs-12">
+                                    <a href="https://www.facebook.com/">
+                                        <Facebook />
+                                    </a>
+                                </div>
+                                <div className="col-md-3 col-xs-12">
+                                    <Link
+                                        to="/"
+                                        onClick={() =>
+                                            window.open(
+                                                'https://www.google.com/'
+                                            )
+                                        }
+                                    >
+                                        <Google />
+                                    </Link>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div className="col-xs-12 col-md-12"></div>
