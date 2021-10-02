@@ -10,7 +10,7 @@ const MainBoxText = () => {
                     <div className="row row-view-all">
                         <div className="col-xs-12 col-md-12">
                             <div className="view-all-btn">
-                                <Link>View all cooking recipes</Link>
+                                <Link to="/">View all cooking recipes</Link>
                             </div>
                         </div>
                     </div>

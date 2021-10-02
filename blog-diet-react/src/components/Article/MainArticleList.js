@@ -7,9 +7,17 @@ const MainArticleList = () => {
         <>
             <div className="container">
                 <div className="row row-article">
-                    {MainArticleArray.map((articleMain) => (
-                        <MainArticleListItem articleMain={articleMain} />
-                    ))}
+                    {MainArticleArray.map(
+                        ({ id, image, description, text, todo }) => (
+                            <MainArticleListItem
+                                key={id}
+                                image={image}
+                                description={description}
+                                text={text}
+                                todo={todo}
+                            />
+                        )
+                    )}
                 </div>
             </div>
         </>
