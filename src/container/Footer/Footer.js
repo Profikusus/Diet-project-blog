@@ -64,22 +64,22 @@ const Footer = () => {
                                 </a>
                             </p>
                             <div className="social">
-                                <div className="col-md-3 col-xs-12">
+                                <div className="col-md-3 col-xs-3">
                                     <a href="https://twitter.com/?lang=ru">
                                         <Twitter />
                                     </a>
                                 </div>
-                                <div className="col-md-3 col-xs-12">
+                                <div className="col-md-3 col-xs-3">
                                     <a href="https://www.instagram.com">
                                         <Instagram />
                                     </a>
                                 </div>
-                                <div className="col-md-3 col-xs-12">
+                                <div className="col-md-3 col-xs-3">
                                     <a href="https://www.facebook.com/">
                                         <Facebook />
                                     </a>
                                 </div>
-                                <div className="col-md-3 col-xs-12">
+                                <div className="col-md-3 col-xs-3">
                                     <Link
                                         to="/"
                                         onClick={() =>

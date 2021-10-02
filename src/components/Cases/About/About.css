@@ -12,7 +12,8 @@
     color: #7fbd5d;
 }
 .about-img{
-    height: 500px;
+    height: 700px;
+    background-image: url(./home_diet_about1.jpg);
 }
 .parallax{
     min-height: 500px; 

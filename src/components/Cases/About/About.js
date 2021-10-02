@@ -1,15 +1,9 @@
 import React from 'react'
-import '../../components/Cases/About.css'
+import './About.css'
 const About = () => {
     return (
         <>
-            <div>
-                <img
-                    className="parallax"
-                    src="./images/home_diet_about1.jpg"
-                    alt=""
-                />
-            </div>
+            <section className="about-img parallax"></section>
             <div className="container">
                 <div className="row">
                     <div className="col-xs-12 col-md-12">

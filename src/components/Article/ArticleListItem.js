@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import './ArticleListStyle.css'
 import FavoriteBorderIcon from '@material-ui/icons/FavoriteBorder'
-import { Button } from '@material-ui/core'
 import { Link } from 'react-router-dom'
 
 const ArticleListItem = ({
@@ -26,9 +25,9 @@ const ArticleListItem = ({
                     <Link to={todo}>
                         <img src={image} alt="" />
                     </Link>
-                    <Button>
-                        <Link to={todo}>{categories}</Link>
-                    </Button>
+                    <Link to={todo} className="btn">
+                        {categories}
+                    </Link>
                     <div className="post-desc">
                         <div className="post-head">
                             <h1>
